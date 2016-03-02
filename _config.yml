@@ -1,0 +1,32 @@
+encoding: utf-8
+exclude: [".gitignore", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+paginate: 6
+paginate_path: /page/:num/
+permalink: /:categories/:title/
+icon: /img/icon.png
+thumbnail: /img/logo-ogp.png
+sass:
+  style: compressed
+gems:
+  - jekyll-paginate
+timezone: America/New_York
+excerpt_separator: <!--more-->
+
+color:
+  default: "deep-purple"
+  accent: "blue"
+
+
+title: Jekyll Materialize
+keywords: "Jekyll Materialize, Jekyll, Materialize"
+author:
+  name: "Aoi Tachibana"
+  twitter: ress997
+  github: ress997
+
+protocol: http
+url: ress997.me
+baseurl: "/jekyll-materialize"
+
+# Google Analytics
+tracking_id: UA-74142663-3

@@ -1,0 +1,5 @@
+---
+---
+User-agent: *
+Sitemap: {{ site.protocol }}://{{ site.url }}{{ site.baseurl }}/sitemap.xml
+Disallow:
