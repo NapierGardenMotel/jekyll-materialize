@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://ress997.me/jekyll-materialize/sitemap.xml
+Disallow:
