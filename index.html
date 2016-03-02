@@ -13,7 +13,7 @@ description: "It is a Template of Jekyll using materialize by Aoi Tachibana"
       <div class="card-content">
         <div class="row">
           <span class="left disabled">{{ post.category }}</span>
-          <date class="right disabled">{{ post.date | date:'%Y年%m月%d日' }}</date>
+          <date class="right disabled">{{ post.date | date:'%m/%d/%Y' }}</date>
         </div>
         <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
       </div>
@@ -31,8 +31,8 @@ description: "It is a Template of Jekyll using materialize by Aoi Tachibana"
           <i class="material-icons">chevron_left</i>
         </a>
       </li>
-{% for page in (1..paginator.total_pages) %}
-  {% if paginator.total_pages > 1 %}
+{% if paginator.total_pages > 1 %}
+  {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
       <li class="active {{ site.color.accent }}"><a href="#">{{ paginator.page }}</a></li>
     {% elsif page == 1 %}
@@ -40,10 +40,10 @@ description: "It is a Template of Jekyll using materialize by Aoi Tachibana"
     {% else %}
       <li class="waves-effect hide-on-small-only"><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
     {% endif %}
-  {% else %}
-    <li class="active {{ site.color.accent }}"><a href="#">{{ paginator.page }}</a></li>
-  {% endif %}
-{% endfor %}
+  {% endfor %}
+{% else %}
+  <li class="active {{ site.color.accent }}"><a href="#">1</a></li>
+{% endif %}
       <li class="btn-flat {% if paginator.next_page %}waves-effect{% else %}disabled{% endif %}">
         <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
           <i class="material-icons">chevron_right</i>
