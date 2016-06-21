@@ -22,10 +22,10 @@ keywords: "Jekyll Materialize, Jekyll, Materialize"
 author:
   name: "Aoi Tachibana"
   twitter: ress997
-  github: ress997
+  github: 39e
 
 protocol: http
-url: ress997.me
+url: ress997.com
 baseurl: "/jekyll-materialize"
 
 # Google Analytics
