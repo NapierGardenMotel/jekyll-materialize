@@ -24,8 +24,8 @@ author:
   twitter: ress997
   github: 39e
 
-protocol: http
-url: ress997.com
+protocol: https
+url: 39e.github.io
 baseurl: "/jekyll-materialize"
 
 # Google Analytics
