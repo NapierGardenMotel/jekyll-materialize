@@ -17,16 +17,15 @@ color:
   accent: "blue"
 
 
-title: Jekyll Materialize
-keywords: "Jekyll Materialize, Jekyll, Materialize"
+title: Napier Garden Motel
+keywords: "cheap accomodation in Napier, family motel, parking hotel"
 author:
-  name: "Aoi Tachibana"
-  twitter: ress997
-  github: 39e
+  name: "Ben Fraser"
+  twitter: napiergardenmotel
 
 protocol: https
-url: 39e.github.io
+url: napiergardenmotel.github.io
 baseurl: "/jekyll-materialize"
 
 # Google Analytics
-tracking_id: UA-74142663-3
+tracking_id: UA-80302740-1
