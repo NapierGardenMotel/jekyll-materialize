@@ -13,8 +13,8 @@ timezone: America/New_York
 excerpt_separator: <!--more-->
 
 color:
-  default: "deep-purple"
-  accent: "blue"
+  default: "dark-green"
+  accent: "yellow"
 
 
 title: Napier Garden Motel
